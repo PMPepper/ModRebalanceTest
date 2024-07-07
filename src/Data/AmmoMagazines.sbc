@@ -128,6 +128,57 @@
 		  <MaximumOrderAmount>2000</MaximumOrderAmount>
 		  <CanPlayerOrder>true</CanPlayerOrder>
 		</AmmoMagazine>
+	
+	<!--400mm-->
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>RvBC400AmmoAP</SubtypeId>
+      </Id>
+      <DisplayName>400mm AP Ammo</DisplayName>
+      <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+      <Size>
+        <X>0.6</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>1200</Mass>
+      <Volume>100</Volume>
+      <Model>..\2016817336\Models\C400Shell.mwm</Model>
+      <Capacity>2</Capacity>
+      <AmmoDefinitionId Subtype="RvBC400AmmoAP" />
+
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>2000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>RvBC400AmmoHE</SubtypeId>
+      </Id>
+      <DisplayName>400mm HE Ammo</DisplayName>
+      <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+      <Size>
+        <X>0.6</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>1000</Mass>
+      <Volume>100</Volume>
+      <Model>..\2016817336\Models\C400Shell.mwm</Model>
+      <Capacity>2</Capacity>
+      <AmmoDefinitionId Subtype="RvBC400AmmoHE" />
+
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>2000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
 	</AmmoMagazines>
 
 	<Components>

@@ -117,6 +117,40 @@
 			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 		</Blueprint>
 
+		<!--400mm-->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RvBC400AmmoAP</SubtypeId>
+			</Id>
+			<DisplayName>400mm AP Ammo</DisplayName>
+			<Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+			<Prerequisites>
+				<Item Amount="1370" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="78" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="12" TypeId="Ingot" SubtypeId="Magnesium" />
+				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RvBC400AmmoAP" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RvBC400AmmoHE</SubtypeId>
+			</Id>
+			<DisplayName>400mm HE Ammo</DisplayName>
+			<Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+			<Prerequisites>
+				<Item Amount="770" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="75" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RvBC400AmmoHE" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
 
 	</Blueprints>
 
@@ -126,12 +160,16 @@
 		<Entry Class="EliteConsumables" BlueprintSubtypeId="RvBC200AmmoAP" />
 		<Entry Class="EliteConsumables" BlueprintSubtypeId="RvBC300AmmoHE" />
 		<Entry Class="EliteConsumables" BlueprintSubtypeId="RvBC300AmmoAP" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="RvBC400AmmoHE" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="RvBC400AmmoAP" />
 		
 		<Entry Class="Ammo" BlueprintSubtypeId="RvBC100mmAmmo" />
 		<Entry Class="Ammo" BlueprintSubtypeId="RvBC200Ammo" />
 		<Entry Class="Ammo" BlueprintSubtypeId="RvBC200AmmoAP" />
 		<Entry Class="Ammo" BlueprintSubtypeId="RvBC300AmmoHE" />
 		<Entry Class="Ammo" BlueprintSubtypeId="RvBC300AmmoAP" />
+		<Entry Class="Ammo" BlueprintSubtypeId="RvBC400AmmoHE" />
+		<Entry Class="Ammo" BlueprintSubtypeId="RvBC400AmmoAP" />
 
 		<Entry Class="CommonMetals" BlueprintSubtypeId="RvBC100ShellCasingToIron" />
 		<Entry Class="Ingots" BlueprintSubtypeId="RvBC100ShellCasingToIron" />
