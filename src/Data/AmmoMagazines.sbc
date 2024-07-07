@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<AmmoMagazines>
+		<!--100mm-->
 		<AmmoMagazine>
 			<Id>
 				<TypeId>AmmoMagazine</TypeId>
@@ -18,6 +19,57 @@
 			<Model>..\2016817336\Models\C100AmmoMag.mwm</Model>
 			<Capacity>1</Capacity>
 			<AmmoDefinitionId Subtype="RvBC100mmAmmo" />
+
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>2000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
+		
+		<!--200mm-->
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>RvBC200Ammo</SubtypeId>
+			</Id>
+			<DisplayName>200mm HE Ammo</DisplayName>
+			<Icon>..\2016817336\Textures\icons\203mmHMagIcon.png</Icon>
+			<Size>
+				<X>0.25</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>160</Mass>
+			<Volume>100</Volume>
+			<Model>..\2016817336\Models\203howitzerMag.mwm</Model>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="RvBC200Ammo" />
+
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>2000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
+
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>RvBC200AmmoAP</SubtypeId>
+			</Id>
+			<DisplayName>200mm AP Ammo</DisplayName>
+			<Icon>..\2016817336\Textures\icons\203mmHMagIcon.png</Icon>
+			<Size>
+				<X>0.25</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>200</Mass>
+			<Volume>100</Volume>
+			<Model>..\2016817336\Models\203howitzerMag.mwm</Model>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="RvBC200AmmoAP" />
 
 			<MinimumOfferAmount>100</MinimumOfferAmount>
 			<MaximumOfferAmount>1000</MaximumOfferAmount>

@@ -15,6 +15,7 @@
 			<IsToolCategory>false</IsToolCategory>
 			<ItemIds>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
+				<string>LargeMissileTurret/RvBC200mmTurret</string>
 			</ItemIds>
 		</Category>
 
@@ -28,6 +29,7 @@
 			<Name>Weapons</Name>
 			<ItemIds>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
+				<string>LargeMissileTurret/RvBC200mmTurret</string>
 			</ItemIds>
 		</Category>
 

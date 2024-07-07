@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Ammos>
+		<!--100mm-->
 		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
 			<Id>
 				<TypeId>AmmoDefinition</TypeId>
@@ -11,6 +12,50 @@
 				<SpeedVariance>0</SpeedVariance>
 				<MaxTrajectory>0</MaxTrajectory>
 				<BackkickForce>0</BackkickForce>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileHitImpulse>0</ProjectileHitImpulse>
+				<ProjectileMassDamage>0</ProjectileMassDamage>
+				<ProjectileHealthDamage>0</ProjectileHealthDamage>
+				<ProjectileMaterial></ProjectileMaterial>
+				<ProjectileTrailScale>0</ProjectileTrailScale>
+				<ProjectileTrailProbability>0</ProjectileTrailProbability>
+			</ProjectileProperties>
+		</Ammo>
+
+		<!--200mm-->
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>RvBC200Ammo</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>0</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>0</MaxTrajectory>
+				<BackkickForce>0</BackkickForce>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileHitImpulse>0</ProjectileHitImpulse>
+				<ProjectileMassDamage>0</ProjectileMassDamage>
+				<ProjectileHealthDamage>0</ProjectileHealthDamage>
+				<ProjectileMaterial></ProjectileMaterial>
+				<ProjectileTrailScale>0</ProjectileTrailScale>
+				<ProjectileTrailProbability>0</ProjectileTrailProbability>
+			</ProjectileProperties>
+		</Ammo>
+
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>RvBC200AmmoAP</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>0</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>0</MaxTrajectory>
+				<BackkickForce>0</BackkickForce>
+				<ExplosiveDamageMultiplier>0.5</ExplosiveDamageMultiplier>
 			</BasicProperties>
 			<ProjectileProperties>
 				<ProjectileHitImpulse>0</ProjectileHitImpulse>
