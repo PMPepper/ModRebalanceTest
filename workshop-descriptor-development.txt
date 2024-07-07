@@ -1,0 +1,7 @@
+﻿"workshopitem"
+{
+	"appid" "244850"
+	"publishedfileid" "3283890715"
+	"contentfolder" "C:\\Users\Paul\\source\\repos\\ModRebalanceTest\\src"
+	"previewfile" "C:\\Users\Paul\\source\\repos\\ModRebalanceTest\\src\\thumb.jpg"
+}

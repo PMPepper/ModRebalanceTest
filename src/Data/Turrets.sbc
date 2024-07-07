@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>RvBC100mmTurret</SubtypeId>
+			</Id>
+			<DisplayName>100mm Gun Turret (RvB)</DisplayName>
+			<Description>100mm gun turret. Uses 100mm shells(?m/s) max range ?</Description>
+			<Icon>..\2016817336\Textures\icons\100mmIcon.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>true</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>..\2016817336\Models\C100mmTurret.mwm</Model>
+			<UseModelIntersection>false</UseModelIntersection>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2016817336\Models\C100mmTurret_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2016817336\Models\C100mmTurret_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2016817336\Models\C100mmTurret_BS3.mwm"/>
+			</BuildProgressModels>
+
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Components>
+				<Component Subtype="SteelPlate" Count="60" />
+				<Component Subtype="Construction" Count="80" />
+				<Component Subtype="MetalGrid" Count="25" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="SteelPlate" Count="450" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BlockPairName>RvB100mmTurret</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<WeaponDefinitionId Subtype="RvBC100mmTurret" />
+			<InventoryMaxVolume>0.062</InventoryMaxVolume>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<BuildTimeSeconds>45</BuildTimeSeconds>
+			<DisassembleRatio>5</DisassembleRatio>
+			<NavigationDefinition>Default</NavigationDefinition>
+			<MaxRangeMeters>4000</MaxRangeMeters>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>525</PCU>
+			<IsAirTight>false</IsAirTight>
+			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+			<CameraDummyName>camera</CameraDummyName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
