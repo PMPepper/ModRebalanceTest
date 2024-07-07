@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+			  <DisplayName>Northwind Weapons</DisplayName>
+			  <Name>Northwindweapons</Name>
+				<SearchBlocks>true</SearchBlocks>
+				<IsShipCategory>false</IsShipCategory>
+				<IsBlockCategory>true</IsBlockCategory>
+				<IsToolCategory>false</IsToolCategory>
+			<ItemIds>
+
+				<string>SmallMissileLauncher/Railgunx75f</string>		
+				<string>SmallMissileLauncher/Railgunx150f</string>	
+				<string>SmallMissileLauncher/Railgunx</string>
+				<string>SmallMissileLauncher/RotaryCannon</string>
+				<string>SmallMissileLauncher/203mmHowitzer</string>
+				<string>ConveyorSorter/RailgunxTurretS</string>	
+				<string>ConveyorSorter/RailgunxTurret</string>
+				<string>LargeMissileTurret/RailgunxTurretM</string>	
+				<string>LargeMissileTurret/AMSlaser</string>
+				<string>LargeMissileTurret/CIWS</string>
+				<string>LargeMissileTurret/C100mmTurret</string>
+				<string>LargeMissileTurret/C200mmTurret</string>
+				<string>LargeMissileTurret/C300mmTurret</string>
+				<string>LargeMissileTurret/C400mmTurret</string>
+				<string>LargeMissileTurret/C203mmSingleTurret</string>
+				<string>LargeMissileTurret/H203mmSingleTurret</string>				
+				<string>ConveyorSorter/C500mmTurret</string>
+				<string>LargeMissileTurret/C30mmSingleT</string>
+				<string>LargeMissileTurret/C30mmSingleTSG</string>
+				<string>SmallMissileLauncher/C30mmRevolver</string>
+				<string>SmallMissileLauncher/TankPlasmaCannon</string>
+
+			</ItemIds>
+		</Category>
+
+
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+					<DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+					<Name>Weapons</Name>
+				<ItemIds>
+
+				<string>SmallMissileLauncher/Railgunx75f</string>		
+				<string>SmallMissileLauncher/Railgunx150f</string>	
+				<string>SmallMissileLauncher/Railgunx</string>
+				<string>SmallMissileLauncher/RotaryCannon</string>
+				<string>SmallMissileLauncher/203mmHowitzer</string>
+				<string>ConveyorSorter/RailgunxTurretS</string>	
+				<string>ConveyorSorter/RailgunxTurret</string>
+				<string>LargeMissileTurret/RailgunxTurretM</string>	
+				<string>LargeMissileTurret/AMSlaser</string>
+				<string>LargeMissileTurret/CIWS</string>	
+				<string>LargeMissileTurret/C100mmTurret</string>
+				<string>LargeMissileTurret/C200mmTurret</string>
+				<string>LargeMissileTurret/C300mmTurret</string>
+				<string>LargeMissileTurret/C400mmTurret</string>
+				<string>LargeMissileTurret/C203mmSingleTurret</string>
+				<string>LargeMissileTurret/H203mmSingleTurret</string>
+				<string>ConveyorSorter/C500mmTurret</string>
+				<string>LargeMissileTurret/C30mmSingleT</string>
+				<string>LargeMissileTurret/C30mmSingleTSG</string>
+				<string>SmallMissileLauncher/C30mmRevolver</string>
+				<string>SmallMissileLauncher/TankPlasmaCannon</string>				
+
+				</ItemIds>  
+		</Category>
+
+	
+  </CategoryClasses>
+  
+
+</Definitions>

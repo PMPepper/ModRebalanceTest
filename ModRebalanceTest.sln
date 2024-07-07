@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModRebalanceTest", "ModRebalanceTest.csproj", "{681198D1-AF38-4643-B358-46B34A7AAE62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681198D1-AF38-4643-B358-46B34A7AAE62}.Debug|x64.ActiveCfg = Debug|x64
+		{681198D1-AF38-4643-B358-46B34A7AAE62}.Debug|x64.Build.0 = Debug|x64
+		{681198D1-AF38-4643-B358-46B34A7AAE62}.Release|x64.ActiveCfg = Release|x64
+		{681198D1-AF38-4643-B358-46B34A7AAE62}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388D9F6D-E984-4A67-AAE3-1E9A1F83C598}
+	EndGlobalSection
+EndGlobal
