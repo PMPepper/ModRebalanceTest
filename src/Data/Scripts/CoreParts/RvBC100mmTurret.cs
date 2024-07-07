@@ -120,7 +120,7 @@ namespace Scripts
                 Audio = new HardPointAudioDef
                 {
                     PreFiringSound = "",
-                    FiringSound = "RvBLightArtilleryFireNW", // WepShipGatlingShot
+                    FiringSound = "LightArtilleryFireNW", // WepShipGatlingShot
                     FiringSoundPerShot = true,
                     ReloadSound = "",
                     NoAmmoSound = "",
@@ -132,7 +132,7 @@ namespace Scripts
 
                     Effect1 = new ParticleDef
                     {
-                        Name = "RvBMediumMuzzleEffectNW", // Smoke_LargeGunShot
+                        Name = "MediumMuzzleEffectNW", // Smoke_LargeGunShot
                         Color = Color(red: 1, green: 1, blue: 1, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
 
