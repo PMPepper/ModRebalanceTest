@@ -16,6 +16,7 @@
 			<ItemIds>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
 				<string>LargeMissileTurret/RvBC200mmTurret</string>
+				<string>LargeMissileTurret/RvBC300mmTurret</string>
 			</ItemIds>
 		</Category>
 
@@ -30,6 +31,7 @@
 			<ItemIds>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
 				<string>LargeMissileTurret/RvBC200mmTurret</string>
+				<string>LargeMissileTurret/RvBC300mmTurret</string>
 			</ItemIds>
 		</Category>
 

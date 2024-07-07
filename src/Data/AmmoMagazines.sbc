@@ -77,6 +77,57 @@
 			<MaximumOrderAmount>2000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
 		</AmmoMagazine>
+	
+		<!--300mm-->
+		<AmmoMagazine>
+		  <Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>RvBC300AmmoAP</SubtypeId>
+		  </Id>
+		  <DisplayName>300mm AP Ammo</DisplayName>
+		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+		  <Size>
+			<X>0.5</X>
+			<Y>0.3</Y>
+			<Z>0.3</Z>
+		  </Size>
+		  <Mass>600</Mass>
+		  <Volume>100</Volume>
+		  <Model>..\2016817336\Models\C300Shells.mwm</Model>
+		  <Capacity>3</Capacity>
+		  <AmmoDefinitionId Subtype="RvBC300AmmoAP" />
+
+		  <MinimumOfferAmount>100</MinimumOfferAmount>
+		  <MaximumOfferAmount>1000</MaximumOfferAmount>
+		  <MinimumOrderAmount>100</MinimumOrderAmount>
+		  <MaximumOrderAmount>2000</MaximumOrderAmount>
+		  <CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
+
+		<AmmoMagazine>
+		  <Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>RvBC300AmmoHE</SubtypeId>
+		  </Id>
+		  <DisplayName>300mm HE Ammo</DisplayName>
+		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+		  <Size>
+			<X>0.5</X>
+			<Y>0.3</Y>
+			<Z>0.3</Z>
+		  </Size>
+		  <Mass>60</Mass>
+		  <Volume>100</Volume>
+		  <Model>..\2016817336\Models\C300Shells.mwm</Model>
+		  <Capacity>3</Capacity>
+		  <AmmoDefinitionId Subtype="RvBC300AmmoHE" />
+
+		  <MinimumOfferAmount>100</MinimumOfferAmount>
+		  <MaximumOfferAmount>1000</MaximumOfferAmount>
+		  <MinimumOrderAmount>100</MinimumOrderAmount>
+		  <MaximumOrderAmount>2000</MaximumOrderAmount>
+		  <CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
 	</AmmoMagazines>
 
 	<Components>
