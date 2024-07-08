@@ -4,6 +4,23 @@
 		<Weapon>
 			<Id>
 				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>RvBC30mmSingleT</SubtypeId>
+			</Id>
+			<ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
+			<ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>
+			<DeviateShotAngle>0</DeviateShotAngle>
+			<MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+			<NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+			<SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+			<AmmoMagazines>
+				<AmmoMagazine Subtype="Energy" />
+			</AmmoMagazines>
+			<ReloadTime>0</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>RvBC100mmTurret</SubtypeId>
 			</Id>
 			<ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
@@ -55,6 +72,23 @@
 			<Id>
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>RvBC400mmTurret</SubtypeId>
+			</Id>
+			<ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
+			<ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>
+			<DeviateShotAngle>0</DeviateShotAngle>
+			<MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+			<NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+			<SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+			<AmmoMagazines>
+				<AmmoMagazine Subtype="Energy" />
+			</AmmoMagazines>
+			<ReloadTime>0</ReloadTime>
+		</Weapon>
+
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>RvBC500mmTurret</SubtypeId>
 			</Id>
 			<ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
 			<ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>

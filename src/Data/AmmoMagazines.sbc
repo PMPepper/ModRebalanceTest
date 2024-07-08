@@ -1,6 +1,32 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<AmmoMagazines>
+		<!--30mm-->
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>RvBC30Ammo</SubtypeId>
+			</Id>
+			<DisplayName>30mm Standard Ammo (RvB)</DisplayName>
+			<Icon>..\2016817336\Textures\icons\30mmAmmoCan.png</Icon>
+			<Size>
+				<X>0.25</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>60</Mass>
+			<Volume>47</Volume>
+			<Model>..\2016817336\Models\30mmAmmobox.mwm</Model>
+			<Capacity>120</Capacity>
+			<AmmoDefinitionId Subtype="RvBC30Ammo" />
+
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>2000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
+		
 		<!--100mm-->
 		<AmmoMagazine>
 			<Id>
@@ -33,7 +59,7 @@
 				<TypeId>AmmoMagazine</TypeId>
 				<SubtypeId>RvBC200Ammo</SubtypeId>
 			</Id>
-			<DisplayName>200mm HE Ammo</DisplayName>
+			<DisplayName>200mm HE Ammo (RvB)</DisplayName>
 			<Icon>..\2016817336\Textures\icons\203mmHMagIcon.png</Icon>
 			<Size>
 				<X>0.25</X>
@@ -58,7 +84,7 @@
 				<TypeId>AmmoMagazine</TypeId>
 				<SubtypeId>RvBC200AmmoAP</SubtypeId>
 			</Id>
-			<DisplayName>200mm AP Ammo</DisplayName>
+			<DisplayName>200mm AP Ammo (RvB)</DisplayName>
 			<Icon>..\2016817336\Textures\icons\203mmHMagIcon.png</Icon>
 			<Size>
 				<X>0.25</X>
@@ -84,7 +110,7 @@
 			<TypeId>AmmoMagazine</TypeId>
 			<SubtypeId>RvBC300AmmoAP</SubtypeId>
 		  </Id>
-		  <DisplayName>300mm AP Ammo</DisplayName>
+		  <DisplayName>300mm AP Ammo (RvB)</DisplayName>
 		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
 		  <Size>
 			<X>0.5</X>
@@ -109,7 +135,7 @@
 			<TypeId>AmmoMagazine</TypeId>
 			<SubtypeId>RvBC300AmmoHE</SubtypeId>
 		  </Id>
-		  <DisplayName>300mm HE Ammo</DisplayName>
+		  <DisplayName>300mm HE Ammo (RvB)</DisplayName>
 		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
 		  <Size>
 			<X>0.5</X>
@@ -129,56 +155,82 @@
 		  <CanPlayerOrder>true</CanPlayerOrder>
 		</AmmoMagazine>
 	
-	<!--400mm-->
-	<AmmoMagazine>
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>RvBC400AmmoAP</SubtypeId>
-      </Id>
-      <DisplayName>400mm AP Ammo</DisplayName>
-      <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
-      <Size>
-        <X>0.6</X>
-        <Y>0.4</Y>
-        <Z>0.4</Z>
-      </Size>
-      <Mass>1200</Mass>
-      <Volume>100</Volume>
-      <Model>..\2016817336\Models\C400Shell.mwm</Model>
-      <Capacity>2</Capacity>
-      <AmmoDefinitionId Subtype="RvBC400AmmoAP" />
+		<!--400mm-->
+		<AmmoMagazine>
+		  <Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>RvBC400AmmoAP</SubtypeId>
+		  </Id>
+		  <DisplayName>400mm AP Ammo (RvB)</DisplayName>
+		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+		  <Size>
+			<X>0.6</X>
+			<Y>0.4</Y>
+			<Z>0.4</Z>
+		  </Size>
+		  <Mass>1200</Mass>
+		  <Volume>100</Volume>
+		  <Model>..\2016817336\Models\C400Shell.mwm</Model>
+		  <Capacity>2</Capacity>
+		  <AmmoDefinitionId Subtype="RvBC400AmmoAP" />
 
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <MinimumOrderAmount>100</MinimumOrderAmount>
-      <MaximumOrderAmount>2000</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </AmmoMagazine>
+		  <MinimumOfferAmount>100</MinimumOfferAmount>
+		  <MaximumOfferAmount>1000</MaximumOfferAmount>
+		  <MinimumOrderAmount>100</MinimumOrderAmount>
+		  <MaximumOrderAmount>2000</MaximumOrderAmount>
+		  <CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
 
-    <AmmoMagazine>
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>RvBC400AmmoHE</SubtypeId>
-      </Id>
-      <DisplayName>400mm HE Ammo</DisplayName>
-      <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
-      <Size>
-        <X>0.6</X>
-        <Y>0.4</Y>
-        <Z>0.4</Z>
-      </Size>
-      <Mass>1000</Mass>
-      <Volume>100</Volume>
-      <Model>..\2016817336\Models\C400Shell.mwm</Model>
-      <Capacity>2</Capacity>
-      <AmmoDefinitionId Subtype="RvBC400AmmoHE" />
+		<AmmoMagazine>
+		  <Id>
+			<TypeId>AmmoMagazine</TypeId>
+			<SubtypeId>RvBC400AmmoHE</SubtypeId>
+		  </Id>
+		  <DisplayName>400mm HE Ammo (RvB)</DisplayName>
+		  <Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+		  <Size>
+			<X>0.6</X>
+			<Y>0.4</Y>
+			<Z>0.4</Z>
+		  </Size>
+		  <Mass>1000</Mass>
+		  <Volume>100</Volume>
+		  <Model>..\2016817336\Models\C400Shell.mwm</Model>
+		  <Capacity>2</Capacity>
+		  <AmmoDefinitionId Subtype="RvBC400AmmoHE" />
 
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <MinimumOrderAmount>100</MinimumOrderAmount>
-      <MaximumOrderAmount>2000</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </AmmoMagazine>
+		  <MinimumOfferAmount>100</MinimumOfferAmount>
+		  <MaximumOfferAmount>1000</MaximumOfferAmount>
+		  <MinimumOrderAmount>100</MinimumOrderAmount>
+		  <MaximumOrderAmount>2000</MaximumOrderAmount>
+		  <CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
+		
+		<!--500mm-->
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>RvBC500AmmoHE</SubtypeId>
+			</Id>
+			<DisplayName>500mm HE Ammo (RvB)</DisplayName>
+			<Icon>..\2016817336\Textures\icons\300mmShellsIcon.png</Icon>
+			<Size>
+				<X>0.6</X>
+				<Y>0.4</Y>
+				<Z>0.4</Z>
+			</Size>
+			<Mass>1000</Mass>
+			<Volume>100</Volume>
+			<Model>..\2016817336\Models\C500Shell.mwm</Model>
+			<Capacity>3</Capacity>
+			<AmmoDefinitionId Subtype="RvBC500AmmoHE" />
+
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>2000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</AmmoMagazine>
 	</AmmoMagazines>
 
 	<Components>

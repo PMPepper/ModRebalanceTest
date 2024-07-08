@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Ammos>
+		<!--30mm-->
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>RvBC30Ammo</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>0</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<IsExplosive>false</IsExplosive>
+				<MaxTrajectory>0</MaxTrajectory>
+				<BackkickForce>0</BackkickForce>
+				<ExplosiveDamageMultiplier>0.5</ExplosiveDamageMultiplier>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileHitImpulse>0</ProjectileHitImpulse>
+				<ProjectileMassDamage>0</ProjectileMassDamage>
+				<ProjectileHealthDamage>0</ProjectileHealthDamage>
+				<ProjectileMaterial></ProjectileMaterial>
+				<ProjectileTrailScale>0</ProjectileTrailScale>
+				<ProjectileTrailProbability>0</ProjectileTrailProbability>
+			</ProjectileProperties>
+		</Ammo>
+		
 		<!--100mm-->
 		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
 			<Id>
@@ -138,6 +162,29 @@
 			<Id>
 				<TypeId>AmmoDefinition</TypeId>
 				<SubtypeId>RvBC400AmmoHE</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>0</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>0</MaxTrajectory>
+				<BackkickForce>0</BackkickForce>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileHitImpulse>0</ProjectileHitImpulse>
+				<ProjectileMassDamage>0</ProjectileMassDamage>
+				<ProjectileHealthDamage>0</ProjectileHealthDamage>
+				<ProjectileMaterial></ProjectileMaterial>
+				<ProjectileTrailScale>0</ProjectileTrailScale>
+				<ProjectileTrailProbability>0</ProjectileTrailProbability>
+			</ProjectileProperties>
+		</Ammo>
+		
+		<!--500mm-->
+		
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>RvBC500AmmoHE</SubtypeId>
 			</Id>
 			<BasicProperties>
 				<DesiredSpeed>0</DesiredSpeed>

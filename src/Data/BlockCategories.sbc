@@ -14,10 +14,12 @@
 			<IsBlockCategory>true</IsBlockCategory>
 			<IsToolCategory>false</IsToolCategory>
 			<ItemIds>
+				<string>LargeMissileTurret/RvBC30mmSingleT</string>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
 				<string>LargeMissileTurret/RvBC200mmTurret</string>
 				<string>LargeMissileTurret/RvBC300mmTurret</string>
 				<string>LargeMissileTurret/RvBC400mmTurret</string>
+				<string>ConveyorSorter/RvBC500mmTurret</string>
 			</ItemIds>
 		</Category>
 
@@ -30,10 +32,12 @@
 			<DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
 			<Name>Weapons</Name>
 			<ItemIds>
+				<string>LargeMissileTurret/RvBC30mmSingleT</string>
 				<string>LargeMissileTurret/RvBC100mmTurret</string>
 				<string>LargeMissileTurret/RvBC200mmTurret</string>
 				<string>LargeMissileTurret/RvBC300mmTurret</string>
 				<string>LargeMissileTurret/RvBC400mmTurret</string>
+				<string>ConveyorSorter/RvBC500mmTurret</string>
 			</ItemIds>
 		</Category>
 
